@@ -37,6 +37,12 @@ Infra        Linux VPS · Nginx · PM2 · Docker
 
 ---
 
+### Hire me
+
+- **Upwork:** [AI Chatbot for your business →](https://www.upwork.com/services/product/development-it-a-custom-ai-chatbot-trained-on-your-business-data-2033239743012886362?ref=project_share)
+
+---
+
 ### Contact
 
 - Site: [64.188.79.192](http://64.188.79.192)
