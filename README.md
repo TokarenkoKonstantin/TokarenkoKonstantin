@@ -1,0 +1,44 @@
+# Konstantin Tokarenko
+
+**AI Engineer · Prompt Engineer · Automation Systems**
+
+I build intelligent systems that work while you sleep —
+LLM integrations, AI agents, workflow automation, end-to-end deployments.
+
+---
+
+### What I build
+
+| Project | Stack | Description |
+|---|---|---|
+| **AI Resume** | Next.js · TypeScript · Framer Motion | Interactive portfolio with built-in AI agent |
+| **BizBot Telegram** | Python · aiogram · OpenAI | AI assistant for business automation via Telegram |
+| **Autoflow** | n8n · Python · Webhooks | No-code/low-code automation pipelines |
+| **Prompt Vault** | Markdown · Git | Structured library of production-ready prompts |
+
+---
+
+### Stack
+
+```
+LLM          Claude · GPT-4 · Ollama
+Frameworks   LangChain · n8n · FastAPI · Next.js
+Languages    Python · TypeScript · Bash
+Infra        Linux VPS · Nginx · PM2 · Docker
+```
+
+---
+
+### Numbers
+
+- **6h** automated daily → **20 min** actual work
+- **68%** of support tickets resolved by AI
+- **3 000** docs searchable in 15 seconds
+
+---
+
+### Contact
+
+- Site: [64.188.79.192](http://64.188.79.192)
+- Telegram: [@your_telegram](https://t.me/your_telegram)
+- Email: consttokarenko@gmail.com
