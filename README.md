@@ -1,9 +1,9 @@
 # Konstantin Tokarenko
 
-**AI Engineer · Prompt Engineer · Automation Systems**
+**AI Engineer · DevOps · Automation Systems**
 
-I build intelligent systems that work while you sleep —
-LLM integrations, AI agents, workflow automation, end-to-end deployments.
+I build intelligent systems and infrastructure that work while you sleep —
+LLM integrations, AI agents, cloud-native deployments, end-to-end automation.
 
 ---
 
@@ -11,6 +11,7 @@ LLM integrations, AI agents, workflow automation, end-to-end deployments.
 
 | Project | Stack | Description |
 |---|---|---|
+| **cloud-shop** | Docker · K3s · Terraform · Prometheus | Microservices e-commerce platform, DevOps pet project |
 | **AI Resume** | Next.js · TypeScript · Framer Motion | Interactive portfolio with built-in AI agent |
 | **BizBot Telegram** | Python · aiogram · OpenAI | AI assistant for business automation via Telegram |
 | **Autoflow** | n8n · Python · Webhooks | No-code/low-code automation pipelines |
@@ -21,6 +22,7 @@ LLM integrations, AI agents, workflow automation, end-to-end deployments.
 ### Stack
 
 ```
+DevOps       Docker · Kubernetes (K3s) · Terraform · Prometheus · Grafana · GitHub Actions
 LLM          Claude · GPT-4 · Ollama
 Frameworks   LangChain · n8n · FastAPI · Next.js
 Languages    Python · TypeScript · Bash
