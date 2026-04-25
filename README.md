@@ -47,6 +47,5 @@ Infra        Linux VPS · Nginx · PM2 · Docker
 
 ### Contact
 
-- Site: [64.188.79.192](http://64.188.79.192)
 - Telegram: [@KonstantinTokar](https://t.me/KonstantinTokar)
 - Email: consttokarenko@gmail.com
