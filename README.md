@@ -56,11 +56,10 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=TokarenkoKonstantin&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TokarenkoKonstantin&layout=compact&theme=dark&hide_border=true&langs_count=6" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=TokarenkoKonstantin&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D" />
 </div>
 
 ---
