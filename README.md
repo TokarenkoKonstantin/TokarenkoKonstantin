@@ -6,6 +6,7 @@
 
 *Строю production-grade инфраструктуру с нуля — Kubernetes · CI/CD · IaC · Мониторинг*
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-konstantin--tokarenko-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/konstantin-tokarenko)
 [![Telegram](https://img.shields.io/badge/Telegram-@KonstantinTokar-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/KonstantinTokar)
 [![Email](https://img.shields.io/badge/Email-consttokarenko%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:consttokarenko@gmail.com)
 ![Open to Work](https://img.shields.io/badge/Open%20to%20Work-brightgreen?style=flat)
@@ -68,5 +69,6 @@
 
 | | |
 |---|---|
+| 💼 LinkedIn | [konstantin-tokarenko](https://linkedin.com/in/konstantin-tokarenko) |
 | 💬 Telegram | [@KonstantinTokar](https://t.me/KonstantinTokar) |
 | 📧 Email | consttokarenko@gmail.com |
