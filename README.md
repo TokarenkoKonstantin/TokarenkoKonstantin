@@ -1,10 +1,12 @@
 <div align="center">
 
+🇬🇧 English &nbsp;|&nbsp; [🇷🇺 Русский](https://github.com/TokarenkoKonstantin/TokarenkoKonstantin/blob/main/README.ru.md)
+
 # Konstantin Tokarenko
 
 ### DevOps Engineer
 
-*Строю production-grade инфраструктуру с нуля — Kubernetes · CI/CD · IaC · Мониторинг*
+*Building production-grade infrastructure from scratch — Kubernetes · CI/CD · IaC · Monitoring*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-konstantin--tokarenko-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/konstantin-tokarenko)
 [![Telegram](https://img.shields.io/badge/Telegram-@KonstantinTokar-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/KonstantinTokar)
@@ -15,29 +17,29 @@
 
 ---
 
-## 🚀 Главный проект — cloud-shop
+## 🚀 Main Project — cloud-shop
 
-> **Production-ready Kubernetes инфраструктура** для e-commerce приложения из 4 микросервисов  
-> Построена с нуля — 11 последовательных фаз: от Docker до HA кластера с GitOps
+> **Production-ready Kubernetes infrastructure** for an e-commerce app with 4 microservices  
+> Built from scratch — 11 sequential phases: from Docker to HA cluster with GitOps
 
 ![CloudShop](https://raw.githubusercontent.com/TokarenkoKonstantin/cloud-shop/main/screenshots/frontend.png)
 
-**Что реализовано:**
+**What's implemented:**
 
-- ☸️ **Kubernetes кластер** — 5 VM (kubeadm), 1 master + 4 workers, Calico CNI, MetalLB
-- 🔄 **GitOps CI/CD** — GitHub Actions → GHCR → ArgoCD auto-sync → кластер
-- 🗄️ **PostgreSQL HA** — CloudNativePG: 1 primary + 2 replica, автобэкапы в MinIO
-- 📊 **Мониторинг** — Prometheus + Grafana, Node Exporter, custom dashboards
-- 🏗️ **IaC** — Terraform + Ansible (полная автоматизация деплоя кластера)
-- 🛡️ **Безопасность** — Trivy CVE-сканирование в pipeline
+- ☸️ **Kubernetes cluster** — 5 VMs (kubeadm), 1 master + 4 workers, Calico CNI, MetalLB
+- 🔄 **GitOps CI/CD** — GitHub Actions → GHCR → ArgoCD auto-sync → cluster
+- 🗄️ **PostgreSQL HA** — CloudNativePG: 1 primary + 2 replicas, auto-backups to MinIO
+- 📊 **Monitoring** — Prometheus + Grafana, Node Exporter, custom dashboards
+- 🏗️ **IaC** — Terraform + Ansible (full cluster deployment automation)
+- 🛡️ **Security** — Trivy CVE scanning in pipeline
 - ⚡ **High Availability** — HPA (min=3, max=10, CPU 50%), PDB (minAvailable=2)
-- 🔀 **Сеть** — Calico CNI, MetalLB LoadBalancer, Ingress-NGINX
+- 🔀 **Networking** — Calico CNI, MetalLB LoadBalancer, Ingress-NGINX
 
 **→ [github.com/TokarenkoKonstantin/cloud-shop](https://github.com/TokarenkoKonstantin/cloud-shop)**
 
 ---
 
-## 🛠 Стек
+## 🛠 Stack
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -65,10 +67,11 @@
 
 ---
 
-## 📬 Контакты
+## 📬 Contacts
 
 | | |
 |---|---|
 | 💼 LinkedIn | [konstantin-tokarenko](https://linkedin.com/in/konstantin-tokarenko) |
 | 💬 Telegram | [@KonstantinTokar](https://t.me/KonstantinTokar) |
 | 📧 Email | consttokarenko@gmail.com |
+| 📍 Location | Russia · Open to remote EU |
