@@ -1,41 +1,45 @@
 <div align="center">
 
-[🇬🇧 English](https://github.com/TokarenkoKonstantin/TokarenkoKonstantin) &nbsp;|&nbsp; 🇷🇺 Русский
+[🇬🇧 English](https://github.com/TokarenkoKonstantin/TokarenkoKonstantin/blob/main/README.md) &nbsp;|&nbsp; 🇷🇺 Русский
 
 # Константин Токаренко
 
 ### DevOps-инженер
 
-*Строю production-grade инфраструктуру с нуля — Kubernetes · CI/CD · IaC · Мониторинг*
+*Строю production-инфраструктуру с нуля — Kubernetes · CI/CD · IaC · Мониторинг*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-konstantin--tokarenko-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/konstantin-tokarenko)
 [![Telegram](https://img.shields.io/badge/Telegram-@KonstantinTokar-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/KonstantinTokar)
 [![Email](https://img.shields.io/badge/Email-consttokarenko%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:consttokarenko@gmail.com)
-![Открыт к работе](https://img.shields.io/badge/%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%20%D0%BA%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5-brightgreen?style=flat)
+![Open to Work](https://img.shields.io/badge/Открыт%20к%20работе-brightgreen?style=flat)
 
 </div>
 
 ---
 
-## 🚀 Главный проект — cloud-shop
+## 🚀 Ключевые проекты
 
-> **Production-ready Kubernetes инфраструктура** для e-commerce приложения из 4 микросервисов  
-> Построена с нуля — 11 последовательных фаз: от Docker до HA кластера с GitOps
+### ☸️ [cloud-shop](https://github.com/TokarenkoKonstantin/cloud-shop) — Kubernetes на железе, с нуля
 
-![CloudShop](https://raw.githubusercontent.com/TokarenkoKonstantin/cloud-shop/main/screenshots/frontend.png)
+> Production-кластер K8s, собранный **руками через kubeadm** на 5 VM — глубоко, без магии.
 
-**Что реализовано:**
+- ☸️ **Кластер** — 5 VM (kubeadm): 1 master + 4 worker, **Calico** CNI, **MetalLB** LoadBalancer
+- 🔄 **GitOps CI/CD** — GitHub Actions → GHCR → **ArgoCD** автосинк → кластер
+- 🗄️ **PostgreSQL HA** — CloudNativePG: 1 primary + 2 реплики, автобэкапы в MinIO
+- 📊 **Мониторинг** — Prometheus + Grafana, Node Exporter, свои дашборды
+- 🏗️ **IaC** — Terraform + Ansible (полная автоматизация кластера)
+- 🛡️ **Безопасность и HA** — Trivy CVE-сканирование, HPA (3→10), PDB, Ingress-NGINX
 
-- ☸️ **Kubernetes кластер** — 5 VM (kubeadm), 1 master + 4 workers, Calico CNI, MetalLB
-- 🔄 **GitOps CI/CD** — GitHub Actions → GHCR → ArgoCD auto-sync → кластер
-- 🗄️ **PostgreSQL HA** — CloudNativePG: 1 primary + 2 replica, автобэкапы в MinIO
-- 📊 **Мониторинг** — Prometheus + Grafana, Node Exporter, custom dashboards
-- 🏗️ **IaC** — Terraform + Ansible (полная автоматизация деплоя кластера)
-- 🛡️ **Безопасность** — Trivy CVE-сканирование в pipeline
-- ⚡ **High Availability** — HPA (min=3, max=10, CPU 50%), PDB (minAvailable=2)
-- 🔀 **Сеть** — Calico CNI, MetalLB LoadBalancer, Ingress-NGINX
+### ☁️ [cloud-shop-aws](https://github.com/TokarenkoKonstantin/cloud-shop-aws) — Та же идея, облачно на AWS
 
-**→ [github.com/TokarenkoKonstantin/cloud-shop](https://github.com/TokarenkoKonstantin/cloud-shop)**
+> Та же e-commerce платформа, переархитектурированная на **managed-сервисы AWS** через Terraform.
+
+- ☁️ **EKS** кластер + managed node groups, **IRSA** (IAM на уровне подов)
+- 🗄️ **RDS** PostgreSQL · **ECR** реестры · **VPC** (public/private подсети, NAT)
+- 🏗️ **Terraform** модули + remote state (S3 + блокировка через DynamoDB)
+- 🔄 **GitOps** на ArgoCD, пайплайн GitHub Actions
+
+> **Вместе они показывают широту** — Kubernetes на железе руками **и** облачная managed-инфраструктура: одно приложение, два реальных подхода.
 
 ---
 
@@ -59,10 +63,15 @@
 
 ---
 
-## 📊 GitHub Активность
+## 📊 Активность на GitHub
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=TokarenkoKonstantin&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=TokarenkoKonstantin&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TokarenkoKonstantin&layout=compact&theme=dark&hide_border=true&langs_count=8" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=TokarenkoKonstantin&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
 </div>
 
 ---
@@ -74,4 +83,4 @@
 | 💼 LinkedIn | [konstantin-tokarenko](https://linkedin.com/in/konstantin-tokarenko) |
 | 💬 Telegram | [@KonstantinTokar](https://t.me/KonstantinTokar) |
 | 📧 Email | consttokarenko@gmail.com |
-| 📍 Локация | Россия · Открыт к удалённой работе в EU |
+| 📍 Локация | Россия · Открыт к удалёнке (EU) |
