@@ -17,25 +17,29 @@
 
 ---
 
-## 🚀 Main Project — cloud-shop
+## 🚀 Featured Projects
 
-> **Production-ready Kubernetes infrastructure** for an e-commerce app with 4 microservices  
-> Built from scratch — 11 sequential phases: from Docker to HA cluster with GitOps
+### ☸️ [cloud-shop](https://github.com/TokarenkoKonstantin/cloud-shop) — Bare-metal Kubernetes, from scratch
 
-![CloudShop](https://raw.githubusercontent.com/TokarenkoKonstantin/cloud-shop/main/screenshots/frontend.png)
+> A production-grade K8s cluster built **by hand with kubeadm** on 5 VMs — the deep, no-magic way.
 
-**What's implemented:**
-
-- ☸️ **Kubernetes cluster** — 5 VMs (kubeadm), 1 master + 4 workers, Calico CNI, MetalLB
-- 🔄 **GitOps CI/CD** — GitHub Actions → GHCR → ArgoCD auto-sync → cluster
+- ☸️ **Cluster** — 5 VMs (kubeadm): 1 master + 4 workers, **Calico** CNI, **MetalLB** LoadBalancer
+- 🔄 **GitOps CI/CD** — GitHub Actions → GHCR → **ArgoCD** auto-sync → cluster
 - 🗄️ **PostgreSQL HA** — CloudNativePG: 1 primary + 2 replicas, auto-backups to MinIO
 - 📊 **Monitoring** — Prometheus + Grafana, Node Exporter, custom dashboards
-- 🏗️ **IaC** — Terraform + Ansible (full cluster deployment automation)
-- 🛡️ **Security** — Trivy CVE scanning in pipeline
-- ⚡ **High Availability** — HPA (min=3, max=10, CPU 50%), PDB (minAvailable=2)
-- 🔀 **Networking** — Calico CNI, MetalLB LoadBalancer, Ingress-NGINX
+- 🏗️ **IaC** — Terraform + Ansible (full cluster automation)
+- 🛡️ **Security & HA** — Trivy CVE scanning, HPA (3→10), PDB, Ingress-NGINX
 
-**→ [github.com/TokarenkoKonstantin/cloud-shop](https://github.com/TokarenkoKonstantin/cloud-shop)**
+### ☁️ [cloud-shop-aws](https://github.com/TokarenkoKonstantin/cloud-shop-aws) — The same idea, cloud-native on AWS
+
+> The same e-commerce platform re-architected on **AWS managed services**, fully via Terraform.
+
+- ☁️ **EKS** cluster + managed node groups, **IRSA** for pod-level IAM
+- 🗄️ **RDS** PostgreSQL · **ECR** registries · **VPC** (public/private subnets, NAT)
+- 🏗️ **Terraform** modules + remote state (S3 + DynamoDB locking)
+- 🔄 **GitOps** with ArgoCD, GitHub Actions pipeline
+
+> **Together these show range** — bare-metal Kubernetes built by hand **and** cloud-managed infrastructure: the same app, two real-world approaches.
 
 ---
 
@@ -62,7 +66,12 @@
 ## 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=TokarenkoKonstantin&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=TokarenkoKonstantin&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TokarenkoKonstantin&layout=compact&theme=dark&hide_border=true&langs_count=8" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=TokarenkoKonstantin&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
 </div>
 
 ---
@@ -74,4 +83,4 @@
 | 💼 LinkedIn | [konstantin-tokarenko](https://linkedin.com/in/konstantin-tokarenko) |
 | 💬 Telegram | [@KonstantinTokar](https://t.me/KonstantinTokar) |
 | 📧 Email | consttokarenko@gmail.com |
-| 📍 Location | Russia · Open to remote EU |
+| 📍 Location | Russia · Open to remote (EU) |
